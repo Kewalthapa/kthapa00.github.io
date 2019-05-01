@@ -1,0 +1,57 @@
+#header{width:100%;height: 130px;background: #333;box-shadow: 0px 2px 4px gray;}
+
+body{
+	background-color: skyblue;
+	font-size: 12px; font-family: airal;
+	margin: 0px;
+}
+
+div.products{
+	width: 1000px; display: table; margin: auto;
+}
+
+div.products h1{
+	float: left;color: black
+	background: black url(img/logo-logo.png) no repeat;
+	margin: 0px; line-height:41px;
+	text-indent: 40px;
+	font-weight: normal; font-size: 22px;
+	padding-right: 20px;
+	margin-left: 10%;
+}
+
+div.products ul,
+div.products ul li{
+	float: left; padding: 0px; margin: 0px; list-style: none;
+}
+div.products ul{ 
+	width: 100%;
+	margin-top: 20px;
+}
+div.products ul li{
+	width: 25%;
+	margin-bottom: 30px;
+}
+div.products ul li div.products{
+	width: 90%; margin-left: 5%;
+}
+
+/* SIDEBAR STARTS HERE */
+#sidebar {
+	width: 150px;
+	background-color: #90EE90;
+	float: right;
+}
+	
+img { 
+}
+
+h2, h3{
+	text-align: center;
+	color: red;
+}
+	
+footer{
+	text-align: center;
+	Background: gray;
+}

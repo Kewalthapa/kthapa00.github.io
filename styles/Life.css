@@ -4,7 +4,7 @@
 #navbar{width:2000px;height: 80px;float: right;}
 #navbar>li{width:150px;list-style: none;float:left;border-right:1px solid gray;border-left:1px solid gray;}
 li>a{display: block;color:white;line-height: 80px;
-	text-align: center;font-family: cursive;font-size:20px;text-decoration: none}
+    text-align: center;font-family: cursive;font-size:20px;text-decoration: none}
 li>a:hover,
 li>a:focus{background: skyblue;color:#333;}
 #logo{width: 300px;height: 80px;float: left; padding-left:40px;}
@@ -52,35 +52,29 @@ form.example button {
   font-size: 10px;
   border: 1px solid grey;
   border-left: none;
-  cursor: pointer;
-}
+  cursor: pointer;}
 
 form.example button:hover {
-  background: #0b7dda;
-}
+  background: #0b7dda;}
 
 form.example::after {
   content: "";
   clear: both;
-  display: table;
-}
+  display: table;}
 		
 /* SIDEBAR STARTS HERE */
 #sidebar {
 	width: 250px;
 	background-color:  #D8D8D8;
-	float: left;
-}
+	float: left;}
 	
 
 h1, h2, h3 {
 	text-align: center;
-	color: blue;
-}
+	color: blue;}
 
 p { color: black;
-	font-size: 0; 
-} 
+	font-size: 0;} 
 
 .coupon {
   border: 5px dotted #bbb; /* Dotted border */

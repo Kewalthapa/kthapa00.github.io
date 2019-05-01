@@ -1,0 +1,1162 @@
+<!DOCTYPE HTML>
+<html data-lang="en-UK" lang="en-UK" itemscope="itemscope" itemtype="http://schema.org/WebPage" >
+<head>
+<title>Henkel tumbles as Schwarzkopf maker warns investment to hit profit - News : Business (#1058553)</title>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgYOVlVbDRABU1dQDgYHXlI="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
+<meta name="google-site-verification" content="PvdQ9JWosQ6prioPC0dlgW2C418Y528OciZmulqn1jc" />
+<meta name="msvalidate.01" content="C906AB73C11637F59896FBA74B8F9978" />
+
+<link rel="icon" sizes="16x16 32x32" type="image/x-icon" href="/favicon-fashionnetwork.ico">
+<link rel="shortcut icon" href="https://static.fashiongroup.com/v201903271/img/favicon-fashionnetwork32.png" />
+<link rel="apple-touch-icon" href="https://static.fashiongroup.com/v201903271/img/favicon-fashionnetwork.png"/>
+
+<meta name="author" content="FashionNetwork.com" />
+<meta name="robots" content="index,follow,all" />
+<meta name="keywords" content="fashion, network, luxury, beauty, professionals" />
+<meta name="description" content="News business : Henkel shares tumbled on Monday after the maker of Schwarzkopf shampoo and Persil detergent warned earnings would fall this year as it steps up investment in brands and digital technology to try to revive growth. (#1058553)" />
+<meta name="dc.description" content="Henkel shares tumbled on Monday after the maker of Schwarzkopf shampoo and Persil detergent warned earnings would fall this year as it steps up investment in brands and digital technology to try to revive growth." />
+<meta property="og:title" content="Henkel tumbles as Schwarzkopf maker warns investment to hit profit" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://uk.fashionnetwork.com/news/Henkel-tumbles-as-Schwarzkopf-maker-warns-investment-to-hit-profit,1058553.html" />
+<meta property="og:site_name" content="FashionNetwork.com" />
+<meta property="og:description" content="Henkel shares tumbled on Monday after the maker of Schwarzkopf shampoo and Persil detergent warned earnings would fall this year as it steps up investment in brands and digital technology to try to revive growth." />
+<meta property="og:image" content="https://media.fashiongroup.com/m/4960/d90c/92ce/45b0/003a/b8c4/4716/29ba/4895/66c3/400x250/66c3.png" />
+<meta name="news_keywords" content="Henkel, Schwarzkopf" />
+<link rel="alternate" type="application/rss+xml" href="https://uk.fashionnetwork.com/rss/feed/uk,18.xml" title="FashionNetwork.com - Henkel tumbles as Schwarzkopf maker warns investment to hit profit - News : Business (#1058553)" />
+<link rel="canonical" href="https://uk.fashionnetwork.com/news/Henkel-tumbles-as-Schwarzkopf-maker-warns-investment-to-hit-profit,1058553.html" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Lora:400,400italic,700,700italic" rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="https://static.fashiongroup.com/v201903271/compiled/css/dependencies/c.dependencies.css">
+
+<link rel="stylesheet" href="https://static.fashiongroup.com/v201903271/compiled/css/main.css">
+
+<link rel="stylesheet" media="print" href="https://static.fashiongroup.com/v201903271/compiled/css/print.css">
+
+<link rel="stylesheet" type="text/css" href="https://static.fashiongroup.com/v201903271/css/jquery/fancybox/jquery.fancybox.min.css" />
+
+<!--[if lte IE 9]>
+<script type="text/javascript" src="https://static.fashiongroup.com/v201903271/js/html5shiv.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://static.fashiongroup.com/v201903271/js/respond.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://static.fashiongroup.com/v201903271/js/selectivizr-min.js" crossorigin="anonymous"></script>
+<![endif]-->
+<script type="text/javascript" src="https://static.fashiongroup.com/v201903271/js/onError.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+fnArray = [];
+</script>
+</head>
+<body class="fg-lang--1 en" data-page="home">
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-4965584-36', 'auto');
+ga('send', 'pageview');
+</script>
+
+<!-- header -->
+<header class="site-head site-head--shrinked cf js-site-head">
+<div class="wrapper">
+
+<a class="site-head__link" href="https://uk.fashionnetwork.com/" title="FashionNetwork.com" rel="home" id="banner">
+<img alt="FashionNetwork" class="site-head__img" src="https://static.fashiongroup.com/v201903271/img/fashion-network-logo.png">
+
+</a>
+
+<div class="site-head__menu">
+<button class="site-head__icon desk--hidden js-main-menu"><i class="fa fa-bars"></i></button>
+</div>
+
+<div class="site-head__nav js-site-head-nav is-shrinked">
+<a class="site-head__link--shrinked" href="https://uk.fashionnetwork.com/">
+<img class="site-head__img" src="https://static.fashiongroup.com/v201903271/img/fashion-network-logo-small.png">
+
+</a>
+
+<button class="site-head__icon desk--hidden js-modal" data-modal-href="https://uk.fashionnetwork.com/v2-login/">
+<i class="fa fa-user"></i>
+</button>
+
+<button class="btn caps portable--hidden js-modal" data-modal-href="https://uk.fashionnetwork.com/v2-login/">
+Sign in</button>
+
+
+
+
+<form class="site-search js-site-search" method="get" action="https://uk.fashionnetwork.com/search/" autocomplete="off" novalidate="novalidate">
+<span class="site-head__icon">
+<i class="fa fa-search fa-rotate-90"></i>
+</span>
+
+<span class="site-search__input js-search-input" tabindex="-1">
+<input type="text" name="p0" size="30" class="input js-autocomplete" value="" placeholder="Search" data-site="fmag" data-service="tag">
+</span>
+</form>
+
+<div class="site-head__lang">
+
+</div>
+</div>
+
+</div>
+</header>
+
+<!-- page -->
+<div class="wrapper" id="page">
+<div class="layout js-layout">
+<!-- center column -->
+
+<div class="layout__backdrop js-layout-backdrop desk--hidden">
+<button class="layout__close js-layout-close">
+<i class="fa fa-times"></i>
+</button>
+</div>
+
+<!-- left column -->
+<nav class="layout__item layout__aside js-layout-aside">
+
+<div class="panel-group" id="main-menu" role="tablist" aria-multiselectable="true">
+<div class="panel">
+<h4 class="panel__title" role="tab">
+<a class="panel__btn " href="https://uk.fashionnetwork.com/">News</a>
+</h4>
+
+<div id="collapse_news" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading_News">
+<ul class="list-group">
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/news/list/Retail,15.html">
+Retail</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/news/list/Business,112.html">
+Business</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/news/list/Industry,5.html">
+Industry</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/news/list/Trade-shows,12.html">
+Trade shows</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/news/list/Innovations,113.html">
+Innovations</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/news/list/Collection,114.html">
+Collection</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/news/list/Catwalks,60.html">
+Catwalks</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/news/list/Design,70.html">
+Design</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/news/list/Media,50.html">
+Media</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/news/list/Campaigns,115.html">
+Campaigns</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/news/list/People,80.html">
+People</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/news/list/Events,90.html">
+Events</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/news/list/Appointments,95.html">
+Appointments</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/tendances/">
+Trends</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="panel">
+<h4 class="panel__title" role="tab">
+<a class="panel__btn collapsed" href="https://uk.fashionjobs.com/">Fashion Jobs</a>
+</h4>
+
+<div id="collapse_offres-emploi" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading_Fashion Jobs">
+<ul class="list-group">
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionjobs.com/">
+New search</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionjobs.com/contract/Permanent-,1.html">
+Permanent Contract offers</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionjobs.com/contract/Fixed-term,2.html">
+Fixed-term Contract offers</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionjobs.com/contract/Internship,5.html">
+Internship offers</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionjobs.com/contract/Temp-seasonal,3.html">
+Temp/seasonal offers</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionjobs.com/contract/Freelance,4.html">
+Freelance offers</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionjobs.com/s/?metier=251">
+Sales Agent offers</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionjobs.com/s/?gold=1">
+Gold offers (&gt;$60K USD)</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionjobs.com/societesrecrutent/">
+Recruiting Companies</a>
+</li>
+<li class="list-group__item push--top push--bottom portable--hidden">
+<a class="btn caps" href="https://uk.fashionjobs.com/candidat/cv/">
+Post your CV</a>
+</li>
+<li class="list-group__item push--top push--bottom portable--hidden">
+<a class="btn caps" href="https://uk.fashionjobs.com/register/company/">
+Post a job offer</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="panel">
+<h4 class="panel__title" role="tab">
+<a class="panel__btn collapsed" href="https://uk.fashionnetwork.com/galeries/Fashion-Week,1.html">Fashion Week</a>
+</h4>
+
+</div>
+
+<div class="panel">
+<h4 class="panel__title" role="tab">
+<a class="panel__btn collapsed" href="https://uk.fashionnetwork.com/videos/">Videos</a>
+</h4>
+
+</div>
+
+<div class="panel">
+<h4 class="panel__title" role="tab">
+<a class="panel__btn collapsed" href="https://uk.fashionnetwork.com/agenda/timeline/">Agenda</a>
+</h4>
+
+<div id="collapse_schedule" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading_Agenda">
+<ul class="list-group">
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/agenda/timeline/">
+Trade shows</a>
+</li>
+<li class="list-group__item">
+<a class="list-group__link" href="https://uk.fashionnetwork.com/agenda/fashionweek/">
+Catwalks</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="site-newsletter">
+<h2 class="site-newsletter__title">Newsletters</h2>
+<a class="site-newsletter__image" href="https://uk.fashionnetwork.com/register/" title="Consult our latest newsletter" target="" style="background-image: url(https://media.fashiongroup.com/fashionmag/newsletters/bandeau/5057.jpg);"></a>
+
+<p class="site-newsletter__caption">
+<a href="https://uk.fashionnetwork.com/register/" class="site-newsletter__link" target="" title="Free sign-up">
+Free sign-up</a>
+<a href="https://uk.fashionnetwork.com/newsletters/1,6/newsletter-2455.html" class="site-newsletter__link--alt" title="Consult our latest newsletter">
+Consult our latest newsletter</a>
+</p>
+</div>
+</div>
+</nav>
+
+<div class="layout__item layout__main js-layout-main">
+
+<div class="layout-content">
+<div class="grid">
+<main class="grid__item
+desk-wide--eight-tenths
+layout--centered
+">
+
+
+<script type="application/javascript">
+
+fnArray.push(function() {
+$('.close-alerte').on('click', function (e) {
+$(".block-alerte").hide();
+// création du cookie (duree de vie 24 heures)
+$.cookie("blockAlerte", 1, {expires: 1})
+});
+});
+
+</script>
+
+<nav class="breadcrumb fg-breadcrumb">
+<a class="fg-breadcrumb__link" href="https://uk.fashionnetwork.com/" rel="nofollow" title="Home">
+Home</a>&nbsp;&rsaquo;&nbsp;<a class="fg-breadcrumb__link" href="https://uk.fashionnetwork.com/news/" rel="directory" title="News">
+News</a>&nbsp;&rsaquo;&nbsp;<a class="fg-breadcrumb__link" href="https://uk.fashionnetwork.com/news/list/Business,112.html" rel="directory" title="Business">
+Business</a>&nbsp;&rsaquo;&nbsp;Henkel tumbles as Schwarzkopf maker warns investment to hit profit</nav>
+<div class="ads push-full--bottom cf js-ads">
+<ul class="ads-carousel js-ads-carousel"></ul>
+<ul class="ads-carousel-pagination js-ads-carousel-pagination"></ul>
+</div>
+
+<aside class="print text--center">
+<img src="https://static.fashiongroup.com/v201903271/img/fashion-network-logo-small.png" />
+<br /><br />
+</aside>
+
+<section id="article" class="fg-article fg-article--alt" itemscope itemtype="http://schema.org/Article">
+
+<article itemprop="articleBody">
+<h1 class="h1 fg-article__title" itemprop="name">
+
+Henkel tumbles as Schwarzkopf maker warns investment to hit profit</h1>
+
+<div class="fg-article__meta">
+<div class="fg-article__meta-name-container">
+</span>
+<div class="actions fg-article__actions">
+<button class="picto-news-zoom-out fg-article__action" title="Decrease text size">
+<i class="fa fa-search-minus"></i>
+</button>
+
+<button class="picto-news-zoom-in fg-article__action" title="Increase text size">
+<i class="fa fa-search-plus"></i>
+</button>
+
+<button class="picto-print fg-article__action palm--hidden" title="Print">
+<i class="fa fa-print"></i>
+</button>
+<a class="picto-pdf fg-article__action show-pop" title="Download the article" rel="nofollow" href="https://uk.fashionnetwork.com/news/downloadPdf/?id=1058553">
+<i class="fa fa-file-pdf-o"></i>
+</a>
+</div>
+</div>
+<time class="fg-article__date" itemprop="datePublished" datetime="2019-01-21T10:25:29+00:00">
+21 January 2019</time>
+</div>
+
+<div class="content line fg-article__content" itemprop="text">
+Henkel shares tumbled on Monday after the maker of Schwarzkopf shampoo and Persil detergent warned earnings would fall this year as it steps up investment in brands and digital technology to try to revive growth.<br /><br class="clear" /><figure style="page-break-inside: avoid;width: 650px;" class="table"><a class="fancybox" rel="group" href="https://media.fashionnetwork.com/m/9b91/beda/1b4b/3806/cdf8/33ea/dd75/5476/3bc4/4fa0/4fa0.png"><img itemprop="image" class="shadow" src="https://media.fashionnetwork.com/m/9b91/beda/1b4b/3806/cdf8/33ea/dd75/5476/3bc4/4fa0/650x1019.60/4fa0.png" /></a><figcaption>To revive growth in beauty care, Henkel plans new formulations of brands like Schauma and Gliss and will relaunch its fast-growing Got2b brand aimed at younger consumers and expand the product range for men - Henkel - Henkel</figcaption></figure><br />The stock fell more than 8 percent to a three-year low after the German consumer goods group announced plans to spend about an extra 300 million euros ($341 million) a year, on top of annual capital expenditure of around 800 million euros.<br /><br />The news came as Henkel also missed analyst expectations for 2018 results, with preliminary sales up an underlying 2.4 percent to 19.9 billion euros and adjusted earnings per share (EPS) growth of 2.7 percent. Full figures are due on Feb. 21.<br /><br />Henkel shares, which have fallen almost 20 percent in the last year, were down 8.8 percent at 1346 GMT.<br /><br />“While there is plenty of bad news in the valuation at this level, this update does nothing to restore confidence in management, nor their command of the numbers and outlook,” said Jefferies analyst Martin Deboo.<br /><br />Henkel has underperformed rivals like Procter & Gamble Co (P&G) and Unilever in recent years, with underlying sales in its beauty care business falling 0.7 percent in 2018 and the laundry unit growing just 1.9 percent.<br /><br />Analysts said additional investment was long overdue as Henkel’s management had focused on cutting costs in recent years, but they questioned whether it would succeed, noting the company’s medium-term growth forecast remains low.<br /><br />Majority owned by the family that founded it, Henkel has grown into a global company by buying up brands around the world, but it has not made major acquisitions since buying North American detergent maker Sun Products for $3.6 billion in 2016.<br /><br />Finance chief Carsten Knobel said Henkel had enough cash to support all three of its main businesses with acquisitions, although analysts suggested it might not have the bandwidth for purchases due to the focus on reviving existing brands.<br /><br />The company said about two-thirds of its extra annual spending would go on its brands, innovations and marketing, with the rest funding its digital transformation - an important issue for consumer goods firms as ecommerce booms.<br /><br />It said the investment would mean adjusted EPS for 2019 would likely fall by about 5 percent, although it stuck to its usual goal of annual underlying sales growth of 2 to 4 percent, which it also set as a target for 2020 and beyond.<br /><br />To revive growth in beauty care, Henkel plans new formulations of brands like Schauma and Gliss and will relaunch its fast-growing Got2b brand aimed at younger consumers and expand the product range for men.<br /><br />As it battles P&G for market share in laundry detergent, Henkel said it planned an innovation drive for Persil, including launching a “four-chamber” pod as well as concentrated formulas to sell online and special packaging for ecommerce sales.<br /><br />Henkel expects tough conditions to persist in the consumer goods market in 2019, but foresees good growth in industrial production, important for its adhesives unit, which makes glue for appliances, electronics and packaging.<br /><br />The adhesives business has been outperforming the beauty and laundry units, prompting analysts to suggest Henkel should split up, spinning off the consumer goods parts.<br /><br />But Chief Executive Hans van Bylen told analysts he was convinced the current structure was the right one.<br /><br />Henkel also said it wanted to increase its dividend payout ratio to 30 to 40 percent of net income from fiscal year 2019 onwards from 25 to 35 percent now.</div>
+
+<p class="fg-article__copyrights push-full--top">&copy; Thomson Reuters 2019 All rights reserved.</p>
+</article>
+
+<div class="line">
+<link rel="stylesheet" type="text/css" href="https://static.fashiongroup.com/v201903271/css/jquery/jquery.webui-popover.css" />
+
+<div class="social-widgets black line">
+<div id="fb-root"></div>
+
+<div class="addthis_toolbox fg-article__socials">
+<div class="custom_images">
+<a class="addthis_button_facebook fg-article__social"><img src="https://static.fashiongroup.com/v201903271/img/common/share-facebook.png" height="35" width="133" /></a>
+<a class="addthis_button_twitter fg-article__social"><img src="https://static.fashiongroup.com/v201903271/img/common/share-twitter.png" height="35" width="133" /></a>
+<a class="addthis_button_linkedin fg-article__social"><img src="https://static.fashiongroup.com/v201903271/img/common/share-linkedin.png" height="35" width="133" /></a>
+
+
+<a href class="picto-share fg-article__social" data-id="1058553" data-type="1" title="Send to a colleague/friend">
+<img src="https://static.fashiongroup.com/v201903271/img/common/share-email.png" height="35" width="133" />
+</a>
+
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+if ('undefined' !== typeof fnArray) {
+var addthis_config = {
+data_track_addressbar : true
+},
+addthis_share = {
+url_transforms : {
+shorten: {
+facebook: 'bitly'
+}
+},
+shorteners : {
+bitly : {
+login: 'fgroup',
+apiKey: 'R_9d1a5493465e8ccd63df1372f3b52a4d'
+}
+}
+};
+
+fnArray.push(function () {
+head.js('https://s7.addthis.com/js/300/addthis_widget.js#pubid=fashiontec');
+
+// facebook
+(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) {
+return;
+}
+js = d.createElement(s);
+js.id = id;
+js.src = "https://connect.facebook.net/en_GB/all.js#xfbml=1&appId=196512953701314";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+$('.picto-job-print').on('click', function() {
+window.print();
+return false;
+});
+
+head.js('https://static.fashiongroup.com/v201903271/js/jquery/jquery.webui-popover.min.js', function () {
+var $wechat= $('.wechat .show-pop'),
+wechatImg = $wechat.data('img');
+$wechat.webuiPopover({
+content: '<img src="' + wechatImg + '" />',
+html:true,
+closeable: true,
+width: 160,
+height: 160
+});
+});
+
+});
+}
+</script>
+</div>
+
+<div class="fg-article__related soft--top">
+<a class="fg-link" href="https://uk.fashionnetwork.com/news/s.html?sectors%5B%5D=21">Cosmetics</a>,&nbsp;<a class="fg-link" href="https://uk.fashionnetwork.com/news/s.html?sectors%5B%5D=33">Beauty - Miscellaneous</a>,&nbsp;<a class="fg-link" href="https://uk.fashionnetwork.com/news/list/Business,112.html">Business</a></div>
+
+<ul class="tags-feed line fg-article__tags cf">
+<li data-idtag="1096">
+<a class="fg-article__tag" href="/tags-henkel" title="Henkel" itemprop="keywords" rel="tag">
+# Henkel</a>
+</li>
+<li data-idtag="7941">
+<a class="fg-article__tag" href="/tags-schwarzkopf" title="Schwarzkopf" itemprop="keywords" rel="tag">
+# Schwarzkopf</a>
+</li>
+</ul>
+</section>
+
+<script type="text/html" id="tpl_shareContent">
+<form class="form" method="GET" id="shareContent" novalidate="novalidate" action="https://uk.fashionnetwork.com/ajax/sendFriendContent/">
+<p>
+Send this offer to a friend</p>
+
+<input type="hidden" name="id" value="<%= id %>" />
+<input type="hidden" name="type" value="<%= type %>" />
+<input name="_token" type="hidden" class="token" value=""><input id="sharecontent_ptoken" name="sharecontent_ptoken" type="hidden" value="14342557825cad82175c9f31.23027164">
+<div class="form-group js-form-group">
+<label for="sharePrenom">Your first name</label>
+
+<div class="form__item">
+<input class="input" id="sharePrenom" name="prenom" type="text" value="" required="true" />
+</div>
+</div>
+
+<div class="form-group js-form-group">
+<label for="shareFromEmail">Your e-mail</label>
+
+<div class="form__item">
+<input id="shareFromEmail" name="from_email" type="email" class="email input" value="" required="true" maxlength="100" />
+</div>
+</div>
+
+<div class="form-group js-form-group">
+<label for="shareDestPrenom">Friend&#039;s name</label>
+
+<div class="form__item">
+<input class="input" id="shareDestPrenom" name="dest_prenom" type="text" value="" required="true" />
+</div>
+</div>
+
+<div class="form-group js-form-group">
+<label for="shareEmail">Recipient&#039;s e-mail</label>
+
+<div class="form__item">
+<input id="shareEmail" name="email" type="email" class="email input" value="" required="true" maxlength="100" />
+</div>
+</div>
+
+<div class="form-group js-form-group">
+<label for="shareMessage">Personal message (optional)</label>
+<div class="form__item">
+<textarea class="textarea" id="shareMessage" name="message"></textarea>
+</div>
+</div>
+
+<div class="form-group js-form-group">
+<label for="shareMessage">Captcha</label>
+<div class="form__item">
+<div id="recaptcha">
+</div>
+</div>
+</div>
+
+
+<div class="form-group js-form-group">
+<button class="button btn">Envoyer</button>
+</div>
+</form>
+</script>
+
+<script type="text/javascript">
+
+var renderGoogleRecaptacha = function(head) {
+
+if (typeof grecaptcha === "undefined") {
+// load google catcha script and use this function as onloadCallback
+head.js('https://www.google.com/recaptcha/api.js?onload=renderGoogleRecaptacha&render=explicit');
+return;
+}
+
+// render the captcha
+grecaptcha.render('recaptcha', {
+'sitekey' : "6Lc3MQsUAAAAAExFKTq4JRuLu_9lbHyiChbJxS4d",
+'size': 'compact'
+});
+};
+
+if ('undefined' !== typeof fnArray) {
+fnArray.push(function() {
+
+var pictoShare = $('.picto-share');
+
+if (!pictoShare.length) {
+return;
+}
+
+pictoShare.on('click', function(e) {
+e.preventDefault();
+});
+
+head.js('https://www.google.com/recaptcha/api.js');
+
+// Bind share content events
+head.ready('templating', function(e) {
+pictoShare.on('click', function(e) {
+
+var _self = $(this),
+params = {
+id: _self.data('id'),
+type: _self.data('type')
+},
+popIn = $('<div></div>').append( tmpl('tpl_shareContent', params) );
+popIn.find('.token').val(FG.globals.token).end().dialog({
+title: "Send to a colleague/friend",
+width: 'auto', // overcomes width:'auto' and maxWidth bug
+maxWidth: 300,
+height: 'auto',
+modal: true,
+fluid: true, //new option
+resizable: false
+});
+
+
+head.js( 'https://static.fashiongroup.com/v201903271/js/jquery/jquery.form.min.js', function() {
+$('#shareContent').ajaxForm({
+url: '/ajax/sendFriendContent/',
+type: 'post',
+dataType: 'json',
+delegation: true,
+beforeSubmit: function( formData, jqForm ) {
+
+var isFormValid = jqForm.formValidate({
+scrollAfterCheck : false
+});
+
+if (!isFormValid) {
+return false;
+}
+
+
+FG.Utils.Loader.show();
+return true;
+},
+complete: function() {
+FG.Utils.Loader.hide();
+},
+error: function() {
+alert('An error occured, please retry and fill the captcha');
+},
+success: function(responseText, statusText, xhr, $form) {
+
+var content = $('<div></div>').addClass('text--center').append( $('<img />').attr({ src : 'https://static.fashiongroup.com/v201903271/img/fashion-network-logo-small.png' })).append( $('<p></p>').html("<br />The article has just been sent by e-mail to your colleague/friend <br />"));
+$form.replaceWith(content);
+
+
+
+return;
+}
+});
+});
+
+renderGoogleRecaptacha(head);
+
+});
+});
+});
+}
+</script>
+<div class="js-related-bottom" data-xhr-url="https://uk.fashionnetwork.com/relatedcontent/newsbottom.jsonp?tag=1096&noVideos=0&noPhotos=0"></div>
+
+<script type="text/javascript">
+fnArray.push(function () {
+$('.picto-print').on('click', function() {
+window.print();
+return false;
+});
+
+head.ready('fancyBox', function() {
+$(".fancybox").fancybox();
+});
+
+head.ready('jCookie', function() {
+var zoomableNodes= $( '#article' ).find( 'h1, .content' ),
+ratio= 1.2,
+cZoom= 0,
+zoomIn= function( elem, count ) {
+if ( "undefined" === typeof elem.data('fontsize') ) {
+return false;
+}
+var i,
+fontSize = parseFloat( elem.css('font-size') ),
+effRatio = ratio;
+
+for ( i = 0; i < ( count - 1 ); i++ ) {
+effRatio *= ratio;
+}
+
+var newFontSize = parseFloat(( fontSize * effRatio ).toFixed(2));
+if ( newFontSize < parseFloat( elem.data('fontsize') * 2 ).toFixed(2) )
+{
+var newLineHeight = parseFloat( ( parseFloat( elem.css('line-height') ) * effRatio ) ).toFixed(2);
+return elem.css({
+fontSize: newFontSize + 'px',
+lineHeight: newLineHeight + 'px'
+});
+}
+return false;
+},
+zoomOut= function ( elem, count )
+{
+if ( "undefined" === typeof elem.data('fontsize') ) {
+return false;
+}
+var i,
+fontSize = parseFloat( elem.css('font-size') ),
+effRatio = ratio;
+
+for ( i = 0; i < ( count - 1 ); i++ ) {
+effRatio *= ratio;
+}
+
+var newFontSize = parseFloat(( fontSize / effRatio ).toFixed(2));
+if ( newFontSize >= parseFloat(elem.data('fontsize')).toFixed(2) )
+{
+var newLineHeight = parseFloat( ( parseFloat( elem.css('line-height') ) / effRatio ) ).toFixed(2);
+return elem.css({
+fontSize: newFontSize + 'px',
+lineHeight: newLineHeight + 'px'
+});
+}
+return false;
+},
+setZoomCookie= function( way )
+{
+var cukie = parseFloat( $.cookie('fmag_news_zoom') );
+if ( "in" === way )
+{
+if ( !isNaN(cukie) && 0 < cukie ) {
+cZoom = cukie + 1;
+} else {
+cZoom++;
+}
+} else
+{
+if ( !isNaN(cukie) && 0 < cukie ) {
+cZoom = cukie - 1;
+} else if ( 0 < cZoom ){
+cZoom--;
+}
+}
+$.cookie( 'fmag_news_zoom', cZoom, { path : '/', expires : 7 } );
+};
+
+$.each( zoomableNodes, function(i, e) {
+var _node= $( e ),
+cukie= parseFloat( $.cookie('fmag_news_zoom') );
+
+_node.data( 'fontsize', parseFloat( _node.css( 'font-size' ) ).toFixed(2) );
+
+if ( !isNaN( cukie ) && 0 < cukie ) {
+zoomIn( _node, cukie );
+} else if ( isNaN( cukie ) && false !== zoomIn( _node, 2 ) )
+{
+setZoomCookie( "out" );
+}
+});
+
+// Bind events : zoom in/out
+$('.picto-news-zoom-in, .picto-news-zoom-out').on( 'click', function(e) {
+e.preventDefault();
+
+var action, setCookie,
+zoom = ( $(this).is('.picto-news-zoom-in') ? "in" : "out" );
+
+if ( "in" === zoom ) {
+action = zoomIn;
+} else {
+action = zoomOut;
+}
+
+$.each( zoomableNodes, function() {
+setCookie = action( $(this), 1 );
+});
+
+if ( false !== setCookie ) {
+setZoomCookie( "in" === zoom ? "in" : "out" );
+}
+return false;
+});
+});
+
+});
+</script>
+</main>
+<aside class="grid__item
+desk--seven-tenths
+desk-wide--two-tenths aside--centered">
+<div class="js-related" data-xhr-url="https://uk.fashionnetwork.com/relatedcontent/news.jsonp?sectors%5B0%5D=3&sectors%5B1%5D=21&sectors%5B2%5D=33&categories%5B0%5D=112&id_news=1058553"></div>
+</aside>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<footer class="site-foot js-site-foot">
+<div class="wrapper">
+<div class="site-foot__content">
+<ul class="site-foot__list">
+<li class="site-foot__title caps">
+<a href="https://uk.fashionnetwork.com/sitemap/" class="site-foot__link">Sitemap</a>
+</li>
+
+<li class="site-foot__item">
+<a class="site-foot__link" href="https://uk.fashionjobs.com/" title="Jobs">
+Jobs</a>
+</li>
+
+<li class="site-foot__item">
+<a class="site-foot__link" href="https://uk.fashionnetwork.com/" title="News">
+News</a>
+</li>
+
+<li class="site-foot__item"><a class="site-foot__link" href="https://uk.fashionnetwork.com/agenda/" title="Agenda">
+Agenda</a>
+</li>
+<li class="site-foot__item">
+<a class="site-foot__link" href="https://uk.fashionnetwork.com/galeries/Fashion-Week,1.html" title="Catwalks">
+Catwalks</a>
+</li>
+</ul>
+
+<ul class="site-foot__list">
+<li class="site-foot__title caps">&nbsp;</li>
+<li class="site-foot__item"><a class="site-foot__link" href="https://uk.fashionnetwork.com/contact/" title="Contact" rel="nofollow">
+Contact</a>
+</li>
+<li class="site-foot__item"><a class="site-foot__link" href="https://uk.fashionnetwork.com/partenaires/" title="Partners">
+Partners</a></li>
+<li class="site-foot__item">
+<a class="site-foot__link" href="https://uk.fashionnetwork.com/stats/" title="Advertise on fashionnetwork.com">
+Advertise on fashionnetwork.com</a>
+</li>
+
+<li class="site-foot__item">
+<a class="site-foot__link" href="https://uk.fashionnetwork.com/texte/29.html" title="About">
+About</a>
+</li>
+</ul>
+
+<ul class="site-foot__list site-foot__list--social">
+<li class="site-foot__title caps">
+Follow us</li>
+
+<li class="site-foot__item">
+<a class="site-foot__link" href="https://twitter.com/FNW_WW" title="Twitter" target="_blank" rel="external"><i class="fa fa-twitter"></i></a>
+</li>
+<li class="site-foot__item">
+<a class="site-foot__link" href="http://www.facebook.com/FashionNetworkUK" title="Facebook" target="_blank" rel="external"><i class="fa fa-facebook"></i></a>
+</li>
+<li class="site-foot__item">
+<a class="site-foot__link" href="https://www.instagram.com/fashionnetworkcom/" title="Instagram" target="_blank" rel="external"><i class="fa fa-instagram"></i></a>
+</li>
+<li class="site-foot__item">
+<a class="site-foot__link" href="https://www.linkedin.com/showcase/fashionnetwork-worldwide/" title="Linkedin" target="_blank" rel="external"><i class="fa fa-linkedin"></i></a>
+</li>
+<li class="site-foot__item">
+<a class="site-foot__link" href="https://uk.fashionnetwork.com/rss/" title="Rss" target="_blank" rel="external"><i class="fa fa-rss"></i></a>
+</li>
+</ul>
+</div>
+
+<div class="site-flags">
+<ul class="site-flags__list">
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--mx" href="https://mx.fashionnetwork.com/" title="FashionNetwork.com M&eacute;xico" rel="alternate" hreflang="es-MX">
+FashionNetwork.com M&eacute;xico</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--pe" href="https://pe.fashionnetwork.com/" title="FashionNetwork.com Per&uacute;" rel="alternate" hreflang="es-PE">
+FashionNetwork.com Per&uacute;</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--br" href="https://br.fashionnetwork.com/" title="FashionNetwork.com Brasil" rel="alternate" hreflang="pt-BR">
+FashionNetwork.com Brasil</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--pt" href="https://pt.fashionnetwork.com/" title="FashionNetwork.com Portugal" rel="alternate" hreflang="pt-PT">
+FashionNetwork.com Portugal</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--es" href="https://es.fashionnetwork.com/" title="FashionNetwork.com Espa&ntilde;a" rel="alternate" hreflang="es-ES">
+FashionNetwork.com Espa&ntilde;a</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--uk" href="https://uk.fashionnetwork.com/" title="FashionNetwork.com United Kingdom" rel="alternate" hreflang="en-GB">
+FashionNetwork.com United Kingdom</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--fr" href="https://fr.fashionnetwork.com/" title="FashionNetwork.com France" rel="alternate" hreflang="fr-FR">
+FashionNetwork.com France</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--be" href="https://be.fashionnetwork.com/" title="FashionNetwork.com Belgi&euml;" rel="alternate" hreflang="nl-BE">
+FashionNetwork.com Belgi&euml;</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--de" href="https://de.fashionnetwork.com/" title="FashionNetwork.com Deutschland" rel="alternate" hreflang="de-DE">
+FashionNetwork.com Deutschland</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--ch" href="https://ch.fashionnetwork.com/" title="FashionNetwork.com Schweiz" rel="alternate" hreflang="de-CH">
+FashionNetwork.com Schweiz</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--it" href="https://it.fashionnetwork.com/" title="FashionNetwork.com Italia" rel="alternate" hreflang="it-IT">
+FashionNetwork.com Italia</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--tr" href="https://tr.fashionnetwork.com/" title="FashionNetwork.com T&uuml;rkiye" rel="alternate" hreflang="tr-TR">
+FashionNetwork.com T&uuml;rkiye</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--ru" href="https://ru.fashionnetwork.com/" title="FashionNetwork.com Россия" rel="alternate" hreflang="ru-RU">
+FashionNetwork.com Россия</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--in" href="https://in.fashionnetwork.com/" title="FashionNetwork.com भारत" rel="alternate" hreflang="hi-IN">
+FashionNetwork.com भारत</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--cn" href="https://cn.fashionnetwork.com/" title="FashionNetwork.com 中国" rel="alternate" hreflang="zh-Hans-CN">
+FashionNetwork.com 中国</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--hk" href="https://hk.fashionnetwork.com/" title="FashionNetwork.com 中華人民共和國香港特別行政區" rel="alternate" hreflang="zh-Hant-HK">
+FashionNetwork.com 中華人民共和國香港特別行政區</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--jp" href="https://jp.fashionnetwork.com/" title="FashionNetwork.com 日本" rel="alternate" hreflang="ja-JP">
+FashionNetwork.com 日本</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--ae" href="https://ae.fashionnetwork.com/" title="FashionNetwork.com الإمارات العربية المتحدة" rel="alternate" hreflang="ar-AE">
+FashionNetwork.com الإمارات العربية المتحدة</a>
+</li>
+<li class="site-flags__item">
+<a class="sprite-flags sprite-flags--ma" href="https://ma.fashionnetwork.com/" title="FashionNetwork.com المغرب" rel="alternate" hreflang="ar-MA">
+FashionNetwork.com المغرب</a>
+</li>
+
+<li class="site-flags__item">
+<a class="site-flags__link" href="https://uk.fashionnetwork.com/world/" title="FashionNetwork.com Other country" rel="alternate">
+Other country</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="site-foot__copy">
+&copy; 2019 FashionNetwork-
+<a class="site-foot__link" href="https://uk.fashionnetwork.com/texte/4.html">Legal information</a>
+-
+<a class="site-foot__link" href="https://uk.fashionnetwork.com/texte/3.html">General conditions of sale</a>
+</div>
+</footer>
+<div class="site-foot__newsletter portable--hidden js-site-foot-newsletter">
+<div class="site-foot__newsletter-content text--center">
+<button class="site-foot__newsletter-close js-site-foot-newsletter-close">
+<i class="fa fa-times"></i>
+</button>
+
+<h2 class="site-foot__newsletter-title">REGISTER</h2>
+<p class="site-foot__newsletter-text">I wish to subscribe for free to FashionNetwork&#039;s daily newsletter exclusive for fashion, luxury and beauty professionals.</p>
+
+<a class="btn btn--primary caps" href="https://uk.fashionnetwork.com/register/">
+NEWSLETTER SUBSCRIPTION</a>
+</div>
+</div>
+
+<script type="text/html" id="tmpl_premiumDialog">
+<# if ("undefined" === typeof FG.user.connected ||false === FG.user.connected) { #>
+<p>You must log in to your account to access the site. <b>Click on forgot password if you don&#039;t remember your password.</b></p><br />
+<form id="dialogLoginForm" class="login-box form" name="login" action="https://uk.fashionnetwork.com/v2-login/" method="POST" autocomplete="no" novalidate="novalidate">
+
+<div class="form-group js-form-group">
+<label for="dialogLogin" class="hidden is--hidden">E-mail</label>
+
+<div class="form__item">
+<input tabIndex="1" type="email" id="dialogLogin" class="input-login email input" name="_username" maxlength="100" size="23" placeholder="Your e-mail" required="true" />
+</div>
+</div>
+
+<div class="form-group js-form-group">
+<label for="dlgPassword" class="hidden is--hidden">Password</label>
+
+<div class="form__item">
+<input tabIndex="2" type="password" id="dlgPassword" class="input" name="_password" maxlength="30" size="20" placeholder="Password" />
+</div>
+</div>
+
+<div class="form-group js-form-group">
+<button type="submit" id="submitdialogLogin" class="button btn">OK</button>
+</div>
+</form><br />
+<ul class="text--center">
+<li>
+<a class="getLostPassword" href="https://uk.fashionnetwork.com/login/lostPassword/" title="Forgotten password" >Forgotten password</a>
+</li>
+<li>
+<a href="https://uk.fashionnetwork.com/register/" title="Newsletter subscription" >Newsletter subscription</a>
+</li>
+</ul>
+<# } else { #>
+<p>This content is reserved for Premium subscribers. Please log in or sign up in order to gain access.</p><br />
+<p class="text--center">
+<a class="button btn" rel="nofollow" href="/premium/">Become a Premium member</a>
+</p>
+<# } #>
+</script>
+
+<script type="text/javascript">
+var Const = {
+'HOST': 'https://uk.fashionnetwork.com/',
+'CODE_PAYS': 'uk',
+'LANG': '1',
+'ROOT_URL_MEDIA': 'https://media.fashiongroup.com',
+'ROOT_URL_STATIC': 'https://static.fashiongroup.com/v201903271',
+'SITES': {"fj":"https:\/\/uk.fashionjobs.com\/","fm":"https:\/\/uk.fashionnetwork.com\/","fg":"https:\/\/uk.fashiongroup.com\/"}}
+</script>
+
+<script type="text/javascript">
+/**
+* Lazysizes options
+*/
+
+window.lazySizesConfig = window.lazySizesConfig || {};
+window.lazySizesConfig.lazyClass = 'js-lazyload';
+lazySizesConfig.loadingClass = 'is-lazyloading';
+lazySizesConfig.loadedClass = 'is-lazyloaded';
+</script>
+
+<script type="text/javascript" src="https://static.fashiongroup.com/v201903271/compiled/js/c.main.min.js" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+fnArray.push(function() {
+// advertising
+head.ready("utils", function () {
+var tabPub = [];
+tabPub.push({"id":"5713","lien":"https:\/\/uk.fashionnetwork.com\/redirect.php?id_pub_calendrier=121026","extension":".gif","html":"","width":"600","height":"218","fond_couleur":"","date_modification":"1537456386","id_pub_calendrier":"121026","affichage":"1000"});
+
+fg.utils.AdManager.init({
+adContainer: $('.js-ads-carousel'),
+adPager: $('.js-ads-carousel-pagination'),
+ads: tabPub,
+interval: 8000,
+sessionID: " " });
+});
+
+var hash = window.location.hash;
+if (hash.length > 0) {
+switch (hash) {
+case '#err' :
+
+break;
+case '#active' :
+$("<div/>").addClass("topAlert").html("Your registration has been validated").appendTo("body").animate({
+opacity : "toggle",
+top: 0,
+left: 0
+}, 2000, "swing");
+}
+}
+
+$('button.js-modal').on('click', function(e) {
+var $this = $(this);
+$.ajax({
+url: $this.data('modal-href'),
+method: 'GET',
+dataType: 'html',
+success: function (response) {
+//$('modal-content').replaceWith(response);
+// Open the modal
+},
+error: function () {
+alert(FG.trad.erreur_survenue);
+}
+});
+});
+});
+</script>
+
+<!--[if lte IE 7]>
+<script type="text/javascript">
+fnArray.push(function() {
+$('a, .selected', '.box-secteurs ul.inner, nav.inner').each(function() {
+$(this).before("<span>&bull;&nbsp;&nbsp;</span>");
+});
+});
+</script>
+<![endif]-->
+
+<script type="text/javascript" src="https://static.fashiongroup.com/v201903271/js/jquery/head.load.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://static.fashiongroup.com/v201903271/js/swfobject.2.2.min.js" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+var FG = {
+env: {
+host: "https://uk.fashionnetwork.com/",
+codePays: "uk",
+idLang: 1,
+sites: {"fj":"https:\/\/uk.fashionjobs.com\/","fm":"https:\/\/uk.fashionnetwork.com\/","fg":"https:\/\/uk.fashiongroup.com\/"},
+EXTENSION_COM: ".com",
+ROOT_URL_STATIC : "https://static.fashiongroup.com/v201903271",
+ROOT_URL_MEDIA: "https://media.fashiongroup.com",
+suffix_JS: ".min",
+PREMIUM: true},
+trad: {
+yes : "Yes",
+no: "No",
+votre_email: "Your e-mail",
+user_name: "Username",
+password: "Password",
+recherche: "Search",
+erreur_form_incomplet: "Error: the form is incomplete",
+mauvais_email_pass: "Wrong E-mail/Password",
+mauvais_pass: "Incorrect password",
+email_invalide: "The e-mail address entered is not valid",
+url_invalide: "The website is not valid.",
+pass_confirm_different : "The passwords given are not the same. Please re-enter passwords",
+cv_wrong_format: "We only accept the following document formats : doc, docx, txt, rtf, pdf, jpg, or jpeg.",
+erreur_survenue: "An error occured.",
+required_field: "Required field",
+did_you_mean: "Did you mean $1 ?",
+acces_reserve: "Please log-in to access this content",
+nouvelle_societe: "New company/brand",
+imprimer: "Print",
+apercu: "Preview",
+operation_succes: "Successfully processed",
+annonce: "Job offer",
+premium_dialog_title: "Premium Content",
+premium_contenu_reserve : "You must log in to your account to access the site. <b>Click on forgot password if you don\'t remember your password.<\/b>",
+premium_ajouter_aa: "Get alerts by E-Mail for all new articles related to",
+premium_ajout_aa_succes : "You have successfully signed up for an alert for the selected tag.",
+premium_create_new_aa: "Enter as a new keyword",
+pass_perdu: "Forgotten password",
+pass_envoyer_ok: "Your password has just been sent to the following address",
+information: "Information",
+confirm_suppr_favori: "Do you really want to delete this favorite?",
+ajouter_aux_favoris: "Add to my favourites",
+ajout_favoris_reussi: "This offer has been added to your favourites",
+retirer_des_favoris: "Remove from my favorites",
+msg_suppr_favori: "This favorite has been successfully deleted from your list." },
+globals : {
+token : '17386891095cad82175bf986.00497614'
+},
+user: {"connected":false,"groups":null,"premium":false}};
+
+fnArray.push(function () {
+$('.token').val(FG.globals.token);
+});
+
+head.js(
+{ utils: FG.env.ROOT_URL_STATIC + "/js/utils.min.js" },
+{ jQueryUI: FG.env.ROOT_URL_STATIC + "/js/jquery/ui/jquery-ui-1.9.2.custom.min.js" },
+{ jHighlight : FG.env.ROOT_URL_STATIC + "/js/jquery/jquery.highlight-3.min.js" },
+{ templating : FG.env.ROOT_URL_STATIC + "/js/templating.min.js" },
+{ jCookie: FG.env.ROOT_URL_STATIC + "/js/jquery/jquery.cookie.min.js" },
+{ number: FG.env.ROOT_URL_STATIC + "/js/jquery/jquery.number.min.js" },
+{ ajaxform: FG.env.ROOT_URL_STATIC + "/js/jquery/jquery.form.min.js" }
+);
+
+fnArray.push(function() {
+$('body').on('change', '.btn-group:not(.btn-group-radio) > label > input', function() {
+var $this= $(this),
+$label= $this.closest('.btn'),
+$parent = $this.closest('.btn-group');
+$parent.find('.btn').removeClass('selected');
+$label.addClass('selected');
+});
+if ($('.select2').length > 0) {
+head.js({Select2: FG.env.ROOT_URL_STATIC + "/js/jquery/select2/select2.min.js"});
+head.ready("Select2", function () {
+head.ready("utils", function () {
+FG.Utils.Select2.init();
+})
+});
+}
+});
+
+head.js(
+{fancyBox : FG.env.ROOT_URL_STATIC + "/js/jquery/fancybox/jquery.fancybox.min.js"});
+
+
+head.ready( "utils", function() {
+
+
+FG.Utils.Number.defaults.locale = 'en_UK';
+FG.Utils.TriggerFnArray();
+
+//check mobileBrowser
+FG.env.mobile = fg.utils.mobile.isAny();
+
+if (typeof FG.env.mobile != 'undefined' && FG.env.mobile != null)
+$('.js-show-mobile-only').show();
+});
+</script>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"6682964ade","applicationID":"176297086","transactionName":"NQNWMkRYWUZQB0QNXwxJYRRfFl9aXAEfAl4HEkMJRFIYQkYTHw1eBgNMSEZRRw==","queueTime":0,"applicationTime":70,"atts":"GURVRAxCSkg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

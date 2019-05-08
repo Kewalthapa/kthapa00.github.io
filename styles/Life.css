@@ -82,6 +82,8 @@ h1, h2, h3 {
 	text-align: center;
 	color: blue;
 }
+h5 {text-align: left;
+}
 
 p { color: black;
 	front size: 14; 

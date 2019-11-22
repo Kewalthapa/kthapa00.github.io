@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="styles/contact.css" type="text/css"/> 
+	<meta charset="utf-8"/>
+</head>
+
+<body>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Look forward for more informaction, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="images/thankyou.jpg" style="width:100%" Alt="thanks"/>
+	  <p>Contact us on Phone if needed: ( 704-401-4278 ) </p>
+	  
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		<label id="gender">Gender</label><br>
+		<input type="radio" name="gender" value="male"> Male<br>
+		<input type="radio" name="gender" value="female"> Female<br>
+		<input type="radio" name="gender" value="other"> Other<br><br>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="nepal">Nepal</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer>
+
+ 
+ 	<br/>&copy; 2019 - designed by: Kewal Thapa
+
+ <p>
+	<a href="http://validator.w3.org/check?uri=referer" style = "text-decoration: none">
+		<img src="images/valid_html5.gif" 
+		alt="Validate HTML" />
+	</a>
+
+	
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+
+    </a>
+</p>
+
+</footer> 
+</body>
+</html>
